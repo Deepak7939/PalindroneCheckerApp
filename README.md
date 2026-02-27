@@ -1,15 +1,15 @@
 # PalindroneCheckerApp
-# UC3-PalindromeCheckUsingStringReverse
+# UC4-CharacterArrayBasedPalindromeCheck
 
 ## Description
-This Java program checks whether a string is a palindrome by reversing it and comparing it with the original value.
+This Java program validates a palindrome by converting the string into a character array and comparing characters using the two-pointer technique.
 
 ## How to Run
-javac UseCase3PalindromeCheckerApp.java  
-java UseCase3PalindromeCheckerApp
+javac UseCase4PalindromeCheckerApp.java  
+java UseCase4PalindromeCheckerApp
 
 ## Example Output
-level is a palindrome.
+radar is a palindrome.
 
 ## Version
-3.0
+4.0
