@@ -1,15 +1,16 @@
 # PalindroneCheckerApp
-# UC10-CaseInsensitiveAndSpaceIgnoredPalindrome
+# UC11-Object-OrientedPalindromeService
 
 ## Description
-This Java program validates a palindrome after normalizing the input by removing spaces and symbols and converting it to lowercase.
+This Java program validates a palindrome using an object-oriented approach.  
+The palindrome logic is encapsulated inside a service class for better reusability and readability.
 
 ## How to Run
-javac UseCase10PalindromeCheckerApp.java  
-java UseCase10PalindromeCheckerApp
+javac UseCase11PalindromeCheckerApp.java  
+java UseCase11PalindromeCheckerApp
 
 ## Example Output
-"A man a plan a canal Panama" is a palindrome.
+racecar is a palindrome.
 
 ## Version
-10.0
+11.0
