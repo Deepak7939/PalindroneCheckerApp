@@ -1,15 +1,16 @@
 # PalindroneCheckerApp
-# UC4-CharacterArrayBasedPalindromeCheck
+# UC5-Stack-BasedPalindromeChecker
 
 ## Description
-This Java program validates a palindrome by converting the string into a character array and comparing characters using the two-pointer technique.
+This Java program validates a palindrome using a Stack data structure (LIFO).  
+Characters are pushed into the stack, popped in reverse order, and compared with the original string.
 
 ## How to Run
-javac UseCase4PalindromeCheckerApp.java  
-java UseCase4PalindromeCheckerApp
+javac UseCase5PalindromeCheckerApp.java  
+java UseCase5PalindromeCheckerApp
 
 ## Example Output
-radar is a palindrome.
+noon is a palindrome.
 
 ## Version
-4.0
+5.0
