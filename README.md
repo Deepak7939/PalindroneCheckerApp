@@ -1,16 +1,16 @@
 # PalindroneCheckerApp
-# UC5-Stack-BasedPalindromeChecker
+# UC6-QueueAndStackBasedPalindromeCheck
 
 ## Description
-This Java program validates a palindrome using a Stack data structure (LIFO).  
-Characters are pushed into the stack, popped in reverse order, and compared with the original string.
+This Java program validates a palindrome using both Queue (FIFO) and Stack (LIFO).  
+Characters are inserted into both structures and compared to confirm symmetry.
 
 ## How to Run
-javac UseCase5PalindromeCheckerApp.java  
-java UseCase5PalindromeCheckerApp
+javac UseCase6PalindromeCheckerApp.java  
+java UseCase6PalindromeCheckerApp
 
 ## Example Output
-noon is a palindrome.
+civic is a palindrome.
 
 ## Version
-5.0
+6.0
