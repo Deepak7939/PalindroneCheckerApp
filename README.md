@@ -1,16 +1,15 @@
 # PalindroneCheckerApp
-# UC2-HardCodePalindrome
+# UC3-PalindromeCheckUsingStringReverse
 
 ## Description
-This Java program demonstrates basic palindrome validation using a hardcoded string.  
-It compares characters from both ends and displays whether the string is a palindrome.
+This Java program checks whether a string is a palindrome by reversing it and comparing it with the original value.
 
 ## How to Run
-javac UseCase2PalindromeCheckerApp.java  
-java UseCase2PalindromeCheckerApp
+javac UseCase3PalindromeCheckerApp.java  
+java UseCase3PalindromeCheckerApp
 
 ## Example Output
-madam is a palindrome.
+level is a palindrome.
 
 ## Version
-2.0
+3.0
