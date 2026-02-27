@@ -1,16 +1,16 @@
 # PalindroneCheckerApp
-# UC7-Deque-BasedOptimizedPalindromeChecker
+# UC8-LinkedListBasedPalindromeChecker
 
 ## Description
-This Java program validates a palindrome using a Deque (double-ended queue).  
-Characters are compared from both ends for efficient front-to-back validation.
+This Java program checks whether a string is a palindrome using a LinkedList.  
+Characters are compared from both ends to verify symmetry.
 
 ## How to Run
-javac UseCase7PalindromeCheckerApp.java  
-java UseCase7PalindromeCheckerApp
+javac UseCase8PalindromeCheckerApp.java  
+java UseCase8PalindromeCheckerApp
 
 ## Example Output
-refer is a palindrome.
+level is a palindrome.
 
 ## Version
-7.0
+8.0
