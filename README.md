@@ -1,15 +1,15 @@
 # PalindroneCheckerApp
-# UC9-RecursivePalindromeChecker
+# UC10-CaseInsensitiveAndSpaceIgnoredPalindrome
 
 ## Description
-This Java program validates a palindrome using recursion by comparing characters from the outer positions moving inward.
+This Java program validates a palindrome after normalizing the input by removing spaces and symbols and converting it to lowercase.
 
 ## How to Run
-javac UseCase9PalindromeCheckerApp.java  
-java UseCase9PalindromeCheckerApp
+javac UseCase10PalindromeCheckerApp.java  
+java UseCase10PalindromeCheckerApp
 
 ## Example Output
-madam is a palindrome.
+"A man a plan a canal Panama" is a palindrome.
 
 ## Version
-9.0
+10.0

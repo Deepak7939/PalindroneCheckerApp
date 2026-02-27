@@ -2,29 +2,26 @@ public class PalindromeCheckerApp {
 
     public static void main(String[] args) {
 
-        String input = "madam";
+        String input = "A man a plan a canal Panama";
 
-        if (check(input, 0, input.length() - 1)) {
-            System.out.println(input + " is a palindrome.");
+        // normalize: remove non-letters and convert to lowercase
+        String normalized = input.replaceAll("[^a-zA-Z]", "").toLowerCase();
+
+        boolean isPalindrome = true;
+
+        // compare characters from both ends
+        for (int i = 0; i < normalized.length() / 2; i++) {
+            if (normalized.charAt(i) !=
+                    normalized.charAt(normalized.length() - 1 - i)) {
+                isPalindrome = false;
+                break;
+            }
+        }
+
+        if (isPalindrome) {
+            System.out.println("\"" + input + "\" is a palindrome.");
         } else {
-            System.out.println(input + " is not a palindrome.");
+            System.out.println("\"" + input + "\" is not a palindrome.");
         }
-    }
-
-    // recursive palindrome check
-    private static boolean check(String s, int start, int end) {
-
-        // base case: all characters checked
-        if (start >= end) {
-            return true;
-        }
-
-        // mismatch found
-        if (s.charAt(start) != s.charAt(end)) {
-            return false;
-        }
-
-        // recursive call moving inward
-        return check(s, start + 1, end - 1);
     }
 }
