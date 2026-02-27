@@ -1,20 +1,27 @@
 public class PalindromeCheckerApp {
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
-            String text = "level";
-            String reversed = "";
+        String text = "radar";
+        char[] chars = text.toCharArray();
 
-            // build reversed string
-            for (int i = text.length() - 1; i >= 0; i--) {
-                reversed += text.charAt(i);
+        int start = 0;
+        int end = chars.length - 1;
+        boolean isPalindrome = true;
+
+        while (start < end) {
+            if (chars[start] != chars[end]) {
+                isPalindrome = false;
+                break;
             }
+            start++;
+            end--;
+        }
 
-            // compare original and reversed
-            if (text.equals(reversed)) {
-                System.out.println(text + " is a palindrome.");
-            } else {
-                System.out.println(text + " is not a palindrome.");
-            }
+        if (isPalindrome) {
+            System.out.println(text + " is a palindrome.");
+        } else {
+            System.out.println(text + " is not a palindrome.");
         }
     }
+}
