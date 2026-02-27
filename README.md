@@ -1,13 +1,16 @@
 # PalindroneCheckerApp
-# UC-1Application Entry & Welcome Message
+# UC2-HardCodePalindrome
 
 ## Description
-This Java application is the entry point of the system.  
-It displays a welcome message and shows the application version.
+This Java program demonstrates basic palindrome validation using a hardcoded string.  
+It compares characters from both ends and displays whether the string is a palindrome.
 
 ## How to Run
-javac UseCase1PalindromeCheckerApp.java  
-java UseCase1PalindromeCheckerApp
+javac UseCase2PalindromeCheckerApp.java  
+java UseCase2PalindromeCheckerApp
+
+## Example Output
+madam is a palindrome.
 
 ## Version
-1.0
+2.0
