@@ -1,16 +1,16 @@
 # PalindroneCheckerApp
-# UC6-QueueAndStackBasedPalindromeCheck
+# UC7-Deque-BasedOptimizedPalindromeChecker
 
 ## Description
-This Java program validates a palindrome using both Queue (FIFO) and Stack (LIFO).  
-Characters are inserted into both structures and compared to confirm symmetry.
+This Java program validates a palindrome using a Deque (double-ended queue).  
+Characters are compared from both ends for efficient front-to-back validation.
 
 ## How to Run
-javac UseCase6PalindromeCheckerApp.java  
-java UseCase6PalindromeCheckerApp
+javac UseCase7PalindromeCheckerApp.java  
+java UseCase7PalindromeCheckerApp
 
 ## Example Output
-civic is a palindrome.
+refer is a palindrome.
 
 ## Version
-6.0
+7.0
