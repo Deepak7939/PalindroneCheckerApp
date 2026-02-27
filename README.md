@@ -1,16 +1,15 @@
 # PalindroneCheckerApp
-# UC8-LinkedListBasedPalindromeChecker
+# UC9-RecursivePalindromeChecker
 
 ## Description
-This Java program checks whether a string is a palindrome using a LinkedList.  
-Characters are compared from both ends to verify symmetry.
+This Java program validates a palindrome using recursion by comparing characters from the outer positions moving inward.
 
 ## How to Run
-javac UseCase8PalindromeCheckerApp.java  
-java UseCase8PalindromeCheckerApp
+javac UseCase9PalindromeCheckerApp.java  
+java UseCase9PalindromeCheckerApp
 
 ## Example Output
-level is a palindrome.
+madam is a palindrome.
 
 ## Version
-8.0
+9.0
