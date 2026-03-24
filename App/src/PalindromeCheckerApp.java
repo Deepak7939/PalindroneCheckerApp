@@ -1,30 +1,29 @@
-public class PalindromeCheckerApp {
+public class giPalindromeCheckerApp {
 
     public static void main(String[] args) {
+
+        String input = "level";
+
         PalindromeStrategy strategy = new StackStrategy();
 
-        String input = "madam";
+        long startTime = System.nanoTime();
 
         boolean result = strategy.check(input);
 
-        if (result) {
-            System.out.println(input + " is a palindrome");
-        } else {
-            System.out.println(input + " is not a palindrome");
-        }
+        long endTime = System.nanoTime();
+
+        long executionTime = endTime - startTime;
+
+        System.out.println("Input : " + input);
+        System.out.println("Is Palindrome? : " + result);
+        System.out.println("Execution Time : " + executionTime + " ns");
     }
 }
 
-/**
- * INTERFACE - PalindromeStrategy
- */
 interface PalindromeStrategy {
     boolean check(String input);
 }
 
-/**
- * CLASS - StackStrategy
- */
 class StackStrategy implements PalindromeStrategy {
 
     @Override
@@ -32,12 +31,10 @@ class StackStrategy implements PalindromeStrategy {
 
         java.util.Stack<Character> stack = new java.util.Stack<>();
 
-        // Push all characters to stack
         for (char c : input.toCharArray()) {
             stack.push(c);
         }
 
-        // Compare by popping
         for (char c : input.toCharArray()) {
             if (c != stack.pop()) {
                 return false;
